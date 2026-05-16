@@ -56,7 +56,7 @@ GlucoVision Notification Service is the **decoupled, async notification pipeline
 
 ### Prerequisites
 
-- Python ≥ 3.11, Redis ≥ 7, PostgreSQL ≥ 15, Docker & Docker Compose
+- Python ≥ 3.11, Redis ≥ 7, MySQL ≥ 15, Docker & Docker Compose
 
 ### Setup (once scaffolded)
 
@@ -83,7 +83,7 @@ docker compose up --build
 | Broker | Redis |
 | Push (Android) | firebase-admin (FCM) |
 | Push (iOS) | apns2 / httpx (APNs HTTP/2) |
-| Database | PostgreSQL (SQLAlchemy) |
+| Database | MySQL (SQLAlchemy) |
 | Scheduler | Celery Beat |
 | Containerisation | Docker |
 
