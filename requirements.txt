@@ -3,7 +3,14 @@ uvicorn
 pydantic
 pydantic-settings
 sqlalchemy
+aiomysql
 pymysql
 cryptography
 alembic
 redis
+celery
+confluent-kafka
+firebase-admin
+aiosmtplib
+jinja2
+httpx
